@@ -1,27 +1,19 @@
-  ///////////////////////////////////////////////////////////
- //  Fancy box css config (main file)                     //
-///////////////////////////////////////////////////////////
 
-// fancy box button image
-$fancybox-btn-img : "../../img/fancybox_buttons.png" !default;
+/**
+ * fancyBox - SASS Helpers Config File
+ *
+ * @website fancyapps.com
+ * @version 2.1.x
+ * @license fancyapps.com/fancybox/#license
+ */
 
-// fancy box previous button position
-$fancybox-btn-prev-pos : "5px 0" !default;
-
-// fancy box next button position
-$fancybox-btn-next-pos : "-33px 0" !default;
-
-// fancy box play button position
-$fancybox-btn-play-pos : "0 -30px" !default;
-
-// fancy box play on button position
-$fancybox-btn-play-on-pos : "-30px -30px" !default;
-
-// fancy box toggle button position
-$fancybox-btn-toggle-pos : "3px -60px" !default;
-
-// fancy box toggle on button position
+$fancybox-btn-img           : "#{$fancybox-path-img}fancybox_buttons.png" !default;
+$fancybox-btn-prev-pos      : "5px 0"       !default;
+$fancybox-btn-next-pos      : "-33px 0"     !default;
+$fancybox-btn-play-pos      : "0 -30px"     !default;
+$fancybox-btn-play-on-pos   : "-30px -30px" !default;
+$fancybox-btn-toggle-pos    : "3px -60px"   !default;
 $fancybox-btn-toggle-on-pos : "-27px -60px" !default;
+$fancybox-btn-close-pos     : "-56px 0px"   !default;
 
-// fancy box close button position
-$fancybox-btn-close-pos : "-56px 0px" !default;
+/* EOF */

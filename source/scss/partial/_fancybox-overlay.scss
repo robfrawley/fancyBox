@@ -1,23 +1,26 @@
+
 /* Overlay helper */
+
 .fancybox-lock {
-    overflow: visible !important;
-    width: auto;
+    overflow : visible !important;
+    width    : auto;
 }
 
 .fancybox-lock body {
-    overflow: hidden !important;
+    overflow : hidden !important;
 }
 
 .fancybox-lock-test {
-    overflow-y: hidden !important;
+    overflow-y : hidden !important;
 }
 
 .fancybox-overlay {
 	@include position(absolute, 0 null null 0);
-	overflow: hidden;
-	display: none;
-	z-index: 8010;
-	background: url($fancybox-overlay-img);
+
+	overflow   : hidden;
+	display    : none;
+	z-index    : 8010;
+	background : url($fancybox-file-overlay-img);
 }
 
 .fancybox-overlay-fixed {
@@ -25,6 +28,6 @@
 }
 
 .fancybox-lock .fancybox-overlay {
-	overflow: auto;
-	overflow-y: scroll;
+	overflow   : auto;
+	overflow-y : scroll;
 }
