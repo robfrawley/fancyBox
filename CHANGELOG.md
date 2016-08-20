@@ -1,6 +1,9 @@
 fancyBox - Changelog
 =========
 
+### Version 2.1.6 - August 20, 2016
+* SASS Implementation
+
 ### Version 2.1.5 - June 14, 2013
 * Fixed #493 - Broken slideshow
 * Fixed #556 - Parent option
