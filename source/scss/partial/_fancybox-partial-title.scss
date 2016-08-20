@@ -53,7 +53,7 @@
 }
 
 .fancybox-title-over-wrap {
-	@include position(absolute, null 0 null 0);
+	@include position(absolute, null 0 0 0);
 
 	color      : #fff;
 	padding    : 10px;
