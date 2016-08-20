@@ -7,15 +7,12 @@
  * @license fancyapps.com/fancybox/#license
  */
 
-
-
 // enable/disable browser prefixes by vendor
 $prefix-for-webkit    : true !global;
 $prefix-for-mozilla   : true !global;
 $prefix-for-microsoft : true !global;
 $prefix-for-opera     : true !global;
 $prefix-for-spec      : true !global;
-
 
 /**
  * Mixin helper to output vendor-prefixed CSS
@@ -28,7 +25,6 @@ $prefix-for-spec      : true !global;
  *
  * @author Hugo Giraudel
  */
-
 @mixin prefix ($property, $value, $prefixes: ()) {
   @each $prefix in $prefixes {
     @if($prefix == webkit) {
@@ -62,7 +58,6 @@ $prefix-for-spec      : true !global;
   }
 }
 
-
 /** 
  * Mixin allows you to add rounded borders to elements
  *
@@ -86,11 +81,9 @@ $prefix-for-spec      : true !global;
  *
  * @author Hugo Giraudel
  */
-
 @mixin border-radius ($radius) {
   @include prefix(border-radius, $radius, 'webkit' 'moz' 'spec');
 }
-
 
 /**
  * Mixin allows you to apply box shadow to box.
@@ -115,11 +108,9 @@ $prefix-for-spec      : true !global;
  *
  * @author Hugo Giraudel
  */
-
 @mixin box-shadow ($shadow-values...) {
   @include prefix(box-shadow, $shadow-values, 'webkit' 'moz' 'spec');
 }
-
 
 /** 
  * Mixin allows you to set height and width of elements
@@ -153,12 +144,10 @@ $prefix-for-spec      : true !global;
  *
  * @author Hugo Giraudel
  */
-
 @mixin size ($width, $height: $width) {
   width  : $width;
   height : $height;
 }
-
 
 /**
  * Mixin allows you to positioning elements
@@ -226,7 +215,6 @@ $prefix-for-spec      : true !global;
  *
  * @author Hugo Giraudel
  */
-
 @mixin position ($position, $posvalue : null) {
 
   @if not index(relative absolute fixed sticky, $position) {
@@ -303,7 +291,6 @@ $prefix-for-spec      : true !global;
   }
 }
 
-
 /**
  * Mixin allows you to make css gradient for fancybox button helper
  *
@@ -332,7 +319,6 @@ $prefix-for-spec      : true !global;
  *
  * @author Hugo Giraudel
  */
-
 @mixin fancy-gradient ($color1, $color2, $color3, $color4) {
   background : $color2;
   background : -moz-linear-gradient(top, $color1 0%, $color2 50%, $color3 50%, $color4 100%);

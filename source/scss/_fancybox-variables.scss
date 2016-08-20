@@ -1,0 +1,37 @@
+
+/**
+ * fancyBox - SASS Variables
+ *
+ * @website fancyapps.com
+ * @version 2.1.x
+ * @license fancyapps.com/fancybox/#license
+ */
+
+$fancybox-inc-helper-buttons : true !default;
+$fancybox-inc-helper-thumbs  : true !default;
+
+$fancybox-path-img           : "../img/"                                      !default;
+$fancybox-file-load-1x-img   : "#{$fancybox-path-img}fancybox_loading.gif"    !default;
+$fancybox-file-load-2x-img   : "#{$fancybox-path-img}fancybox_loading@2x.gif" !default;
+$fancybox-file-overlay-img   : "#{$fancybox-path-img}fancybox_overlay.png"    !default;
+$fancybox-file-ieblank-img   : "#{$fancybox-path-img}blank.gif"               !default;
+$fancybox-file-cntl-1x-img   : "#{$fancybox-path-img}fancybox_sprite.png"     !default;
+$fancybox-file-cntl-2x-img   : "#{$fancybox-path-img}fancybox_sprite@2x.png"  !default;
+$fancybox-file-btn-img       : "#{$fancybox-path-img}fancybox_buttons.png"    !default;
+
+$fancybox-pos-load-img       : "0 -108px"    !default;
+$fancybox-pos-prev-img       : "0 -36px"     !default;
+$fancybox-pos-next-img       : "0 -72px"     !default;
+$fancybox-pos-exit-img       : "0 0"         !default;
+$fancybox-pos-btn-prev       : "5px 0"       !default;
+$fancybox-pos-btn-next       : "-33px 0"     !default;
+$fancybox-pos-btn-play       : "0 -30px"     !default;
+$fancybox-btn-play-on-pos    : "-30px -30px" !default;
+$fancybox-pos-btn-toggle     : "3px -60px"   !default;
+$fancybox-btn-toggle-on-pos  : "-27px -60px" !default;
+$fancybox-pos-btn-close      : "-56px 0px"   !default;
+
+$fancybox-font-family  : "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$fancybox-z-index-base : 8010 !default;
+
+/* EOF */

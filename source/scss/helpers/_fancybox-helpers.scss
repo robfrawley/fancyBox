@@ -1,0 +1,21 @@
+
+/**
+ * fancyBox - SASS Helpers: Root
+ *
+ * @website fancyapps.com
+ * @version 2.1.x
+ * @license fancyapps.com/fancybox/#license
+ */
+
+@import "fancybox-helpers-buttons";
+@import "fancybox-helpers-thumbs";
+
+@if $fancybox-inc-helper-buttons == true {
+    @include fancybox-helpers-buttons;
+}
+
+@if $fancybox-inc-helper-thumbs == true {
+    @include fancybox-helpers-thumbs;
+}
+
+/* EOF */

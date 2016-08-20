@@ -1,13 +1,24 @@
 
-/* Overlay helper */
+/**
+ * fancyBox - SASS Partials: Overlay
+ *
+ * @website fancyapps.com
+ * @version 2.1.x
+ * @license fancyapps.com/fancybox/#license
+ */
 
 .fancybox-lock {
     overflow : visible !important;
     width    : auto;
-}
 
-.fancybox-lock body {
-    overflow : hidden !important;
+    body {
+	    overflow : hidden !important;
+	}
+
+	.fancybox-overlay {
+		overflow   : auto;
+		overflow-y : scroll;
+	}
 }
 
 .fancybox-lock-test {
@@ -19,7 +30,7 @@
 
 	overflow   : hidden;
 	display    : none;
-	z-index    : 8010;
+	z-index    : $fancybox-z-index-base;
 	background : url($fancybox-file-overlay-img);
 }
 
@@ -27,7 +38,4 @@
 	@include position(fixed, null 0 0 null);
 }
 
-.fancybox-lock .fancybox-overlay {
-	overflow   : auto;
-	overflow-y : scroll;
-}
+/* EOF */
